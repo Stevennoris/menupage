@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: blue;
+   
+}
+
+.menu{
+    width: 100%;
+    display: flex;
+
+    
+}
+
+.cart{
+    width: 28%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+    position: fixed;
+    right: 0;
+   
+}
+
+    .headercart{
+        width: 100%;
+        height: 130px;
+        display: flex;
+        flex-direction: row;
+        border-bottom: 5px solid black;
+    }
+
+    .backtolist{
+        width: 10%;
+        display: flex;
+        justify-content: center;
+        padding-top: 10px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+
+.carttitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    background-color: green;
+}
+.optionalist{
+    display: none;
+}
+
+.cardlist{
+    background-color: red;
+
+    width: 72%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+   
+}
+
+.resto{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+
+.card{
+    
+    background-color: aquamarine;
+    width: 500px;
+    height: 250px;
+}
