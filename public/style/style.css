@@ -18,13 +18,21 @@ body {
 }
 
 .cart{
-    width: 28%;
+    /* width: 28%; 
+    display: flex; */
+
+
+
+     /* disiniwoi */
     background-color: white;
-    display: flex;
+   
+    display: none;
     flex-direction: column;
     height:100vh;
     position: fixed;
+    align-items: center;
     right: 0;
+    gap: 30px;
    
 }
 
@@ -34,33 +42,135 @@ body {
         display: flex;
         flex-direction: row;
         border-bottom: 5px solid black;
+        height: 15vh;
     }
 
-    .backtolist{
-        width: 10%;
+        .backtolist{
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            padding-bottom: 7vh;
+            
+        }
+            .backtolist button{
+                background-color: transparent;
+                border: none;
+                font-size: 30px;
+            }
+
+        .carttitle{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 90%;
+            background-color: green;
+        }
+
+    .cartmid{
+        width: 90%;
+        background-color: brown;
         display: flex;
-        justify-content: center;
-        padding-top: 10px;
-        font-weight: bolder;
-        font-size: 25px;
+        height: 70vh;
+        flex-direction: column;
+        gap: 2vh;
+        overflow-y: auto; 
+        overflow-x: hidden;
+        scrollbar-width: none
     }
 
-.carttitle{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    background-color: green;
-}
-.optionalist{
-    display: none;
-}
+        .cartmenulist{
+            display: flex;
+            background-color: green;
+            gap: 20px;
+            height: 100px;
+            align-items: center;
+        }
+        .quantity{
+            width: 10%;
+            display: inline-flex;
+            flex-direction: column;
+            height: 100px;
+            border: none;
+            justify-content: center;
+            align-items: center;
+            border-radius: 8px;
+            background-color: gray;
+
+        }
+            .quantity button, input{
+                background-color: transparent;
+
+            }
+            .quantity button{
+                height: 35px;
+                border: none;
+            }
+            .quantity input{
+                height: 30px;
+                pointer-events: none;
+                border: none;
+                text-align: center;
+            
+            }
+        .picturemenu{
+            width: 100px;
+            height: 100px;
+            background-image: url('/picture/kucing.jpg');
+            background-position: center;
+            background-size: cover;
+        }
+
+        .descmenu{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            
+        }
+
+    .totalmenu{
+        background-color: green;
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 5px solid black;
+        padding: 5%;
+        align-items: center;
+        gap: 20px;
+    }
+        .totalmenu button{
+            width: 100%;
+            height: 5vh;
+        }
+        .totallist{
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .optionalist{
+        display: none;
+    }   
 
 .cardlist{
     background-color: red;
-
-    width: 72%;
+    width: 100%;
+    /* width: 72%; */
     align-items: center;
     justify-content: center;
     display: flex;
@@ -68,6 +178,11 @@ body {
     gap: 50px;
    
 }
+    .cardlist button{
+        position: fixed;
+        right: 0;
+        top :50vh;
+    }
 
 .resto{
     width: 100%;
@@ -81,3 +196,21 @@ body {
     width: 500px;
     height: 250px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

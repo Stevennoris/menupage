@@ -23,52 +23,165 @@
             <div class="card"></div>
             <div class="card"></div>
             <div class="card"></div>
+            <button onclick="buttonmenu()">cart</button>
         </div>
+
+
         <div class="cart" >
             <div class="headercart" style="position: sticky;">
-                <div class="backtolist">X</div>
+                <div class="backtolist" >
+                    <button onclick="backbuttonmenu()">X</button>
+                    </div>
                 <div class="carttitle">
                     <h1>CART</h1>
                     <h2>McDonald's, Sentul City</h2>
                 </div>
             </div>
 
-            <div class="cartmid" style="overflow-y: scroll; overflow-x: hidden; scrollbar-width: none; height: 60%;">
-    
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
+            <div class="cartmid" >
+                <div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
                 </div>
-                
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
+
+                <div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
                 </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
+                <div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
+                </div><div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
+                </div><div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
+                </div><div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
+                </div><div class="cartmenulist">
+                    <div class="quantity" >
+                        <button onclick="increment()">+</button>
+                        <input type="text" id="number" value="1" readonly>
+                        <button onclick="decrement()">−</button>
+                    </div>
+                    <div class="picturemenu">
+                    </div>
+                    <div class="descmenu">
+                        <h1>Double Cheeseburger</h1>
+                        <h2>Rp. 42,000</h2>
+                        <p>Tidak pakai keju, tidak pake acar</p>
+                    </div>
                 </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                <div class="quantity" style="width: 100%; height: 100px; background-color: navajowhite; ">
-                    p
-                </div>
-                <div class="picturemenu"></div>
-                <div class="descmenu"></div>
+
             </div>
+
+            <div class="totalmenu">
+                <div class="totallist">
+                    <h1>Total</h1>
+                    <h1>Rp. 50,000</h1>
+                </div>
+                <button>PAYMENT</button>
+            </div>
+           
         </div>
         <div class="optionallist"></div>
     </section>
 </body>
 </html>
+
+<script>
+     function increment() {
+      const input = document.getElementById('number');
+      input.value = parseInt(input.value) + 1;
+    }
+
+    function decrement() {
+      const input = document.getElementById('number');
+      if (parseInt(input.value) > 0) {
+        input.value = parseInt(input.value) - 1;
+      }
+    }
+
+    function buttonmenu(){
+        const menucard = document.querySelector('.cardlist');
+        const menucart = document.querySelector('.cart');
+        
+        menucard.style.width ='72%';
+        menucart.style.width='28%';
+        menucart.style.display ='flex';
+        document.body.style.overflow='hidden';
+    }
+
+    function backbuttonmenu(){
+        const menucard = document.querySelector('.cardlist');
+        const menucart = document.querySelector('.cart');
+        
+        menucard.style.width ='100%';
+        menucart.style.width='0%';
+        menucart.style.display ='none';
+        document.body.style.overflow='auto';
+    }
+
+</script>
