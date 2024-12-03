@@ -21,6 +21,10 @@ body {
     width: 100%;
     height: 250px;
     background-color: blue;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
     .resto_header{
@@ -29,14 +33,17 @@ body {
         background-color: black;
         display: flex;
         justify-content: center;
-        padding: 20px;
+        align-items: center;
+        /* padding: 20px; */
         /* padding-left: 150px; */
         /* padding-right: 150px; */
+        gap: 1%;
     }
 
         .resto_pic{
+            width: 135px;
             background-color: pink;
-            width: 125px;
+            /* width: 150px; */
             height: 125px;
             justify-content: center;
         }
@@ -46,14 +53,15 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: start;  
-            width: 80%;        
+            width: 75%;   
+            gap: 3vh;
         }
 
             .resto_name{
                 background-color: aliceblue;
                 width: 100%;
                 height: 50px;
-                margin: 20px;
+                /* margin: 20px; */
             }
 
             .resto_category{
@@ -61,15 +69,16 @@ body {
                 height: 50px;
                 width: 100%;
                 left: 200px;
-                margin: 20px;
+                /* margin: 20px; */
             }
 
     .resto_rate{
         background-color: chartreuse;
         height: 70px;
-        margin-left: 150px;
-        margin-right: 150px;
+        /* margin-left: 150px;
+        margin-right: 150px; */
         display: flex;
+        width: 85%;
     }
 
         .review{
@@ -245,7 +254,7 @@ body {
     align-items: center;
     justify-content: center;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 50px;
    
 }
@@ -256,12 +265,23 @@ body {
     }
 
 
+.cardlistnye{
+    background-color: green;
+    width: 85%;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 
+    
+}
 .card{
     
     background-color: aquamarine;
-    width: 500px;
+    width: 390px;
     height: 250px;
+    border-radius: 10px;
 }
 
 

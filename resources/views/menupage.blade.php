@@ -23,6 +23,9 @@
                     <div class="price"></div>
                 </div>
             </div>
+           
+
+            <div class="cardlistnye" > 
             <div class="card">test</div>
             <div class="card">anj</div>
             <div class="card"></div>
@@ -35,6 +38,8 @@
             <div class="card"></div>
             <div class="card"></div>
             <div class="card"></div>
+        </div>
+          
             <button onclick="buttonmenu()">cart</button>
         </div>
 
@@ -92,7 +97,7 @@
                         <h1>Double Cheeseburger</h1>
                         <h2>Rp. 42,000</h2>
                         <p>Tidak pakai keju, tidak pake acar</p>
-                    </div>
+                    </div> 
                 </div><div class="cartmenulist">
                     <div class="quantity" >
                         <button onclick="increment()">+</button>
