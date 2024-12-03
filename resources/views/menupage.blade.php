@@ -8,9 +8,21 @@
 </head>
 <body>
     <section class="menu">
-        
+     
         <div class="cardlist">
-            <div class="resto"></div>
+            <div class="resto">
+                <div class="resto_header">
+                    <div class="resto_pic"></div>
+                    <div class="resto_desc">
+                        <div class="resto_name"></div>
+                        <div class="resto_category"></div>
+                    </div>
+                </div>
+                <div class="resto_rate">
+                    <div class="review"></div>
+                    <div class="price"></div>
+                </div>
+            </div>
             <div class="card">test</div>
             <div class="card">anj</div>
             <div class="card"></div>

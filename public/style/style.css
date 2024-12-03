@@ -6,7 +6,7 @@
 
 body {
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
    
 }
 
@@ -16,6 +16,77 @@ body {
 
     
 }
+
+.resto{
+    width: 100%;
+    height: 250px;
+    background-color: blue;
+}
+
+    .resto_header{
+        width: 100%;
+        height: 180px;
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+        /* padding-left: 150px; */
+        /* padding-right: 150px; */
+    }
+
+        .resto_pic{
+            background-color: pink;
+            width: 125px;
+            height: 125px;
+            justify-content: center;
+        }
+
+        .resto_desc{
+            /* margin: 20px;   */
+            display: flex;
+            flex-direction: column;
+            justify-content: start;  
+            width: 80%;        
+        }
+
+            .resto_name{
+                background-color: aliceblue;
+                width: 100%;
+                height: 50px;
+                margin: 20px;
+            }
+
+            .resto_category{
+                background-color: antiquewhite;
+                height: 50px;
+                width: 100%;
+                left: 200px;
+                margin: 20px;
+            }
+
+    .resto_rate{
+        background-color: chartreuse;
+        height: 70px;
+        margin-left: 150px;
+        margin-right: 150px;
+        display: flex;
+    }
+
+        .review{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100px;
+            background-color: blueviolet;
+        }
+
+        .price{
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 100px;
+            background-color:azure;
+        }
 
 .cart{
     /* width: 28%; 
@@ -184,11 +255,7 @@ body {
         top :50vh;
     }
 
-.resto{
-    width: 100%;
-    height: 250px;
-    background-color: blue;
-}
+
 
 .card{
     
