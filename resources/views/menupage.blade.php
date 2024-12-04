@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>card page</title>
+    <title>menu card page</title>
     <link rel="stylesheet" href="style/style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <section class="menu">
@@ -12,22 +13,35 @@
         <div class="cardlist">
             <div class="resto">
                 <div class="resto_header">
-                    <div class="resto_pic"></div>
+                    <div class="resto_pic">
+                        <img src="https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/8ceb09b1-2ff8-4e92-9e84-ae9eb8c70dd2_brand-image_1733091199022.jpg?auto=format" alt="McDonald's, Sentul City">
+                    </div>
                     <div class="resto_desc">
-                        <div class="resto_name"></div>
-                        <div class="resto_category"></div>
+                        <div class="resto_name">McDonald's, Sentul City</div>
+                        <div class="resto_category">Sweets, Snacks, Fast Food</div>
                     </div>
                 </div>
-                <div class="resto_rate">
-                    <div class="review"></div>
-                    <div class="price"></div>
+                <div class="resto_rate" >
+                    <div class="review" >
+                        <span class="fa fa-star checked"></span>
+                        <p>4.7</p>
+                    </div>
+                    <div class="price" >
+                        <div class="label">
+                            <p1>$</p1>
+                            <p1>$</p1>
+                            <p1>$</p1>
+                            <p2>$</p2>
+                        </div>
+                        <p>40k - 100k</p>
+                    </div>
                 </div>
             </div>
            
 
             <div class="cardlistnye" > 
-            <div class="card">test</div>
-            <div class="card">anj</div>
+            <div class="card"></div>
+            <div class="card"></div>
             <div class="card"></div>
             <div class="card"></div>
             <div class="card"></div>
@@ -80,8 +94,8 @@
                     <div class="picturemenu">
                     </div>
                     <div class="descmenu">
-                        <h1>Double Cheeseburger</h1>
-                        <h2>Rp. 42,000</h2>
+                        <h1 >Double Cheeseburger</h1>
+                        <h2 >Rp. 42,000</h2>
                         <p>Tidak pakai keju, tidak pake acar</p>
                     </div>
                 </div>
